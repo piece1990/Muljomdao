@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/CommendWayMap"
+        android:layout_width="fill_parent"
+        android:layout_height="379dp"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <TextView  
+        android:id="@+id/myTextView"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+    />
+    
+   <LinearLayout
+       android:id="@+id/MyWayMapMenu"
+       android:layout_width="fill_parent"
+       android:layout_height="127dp"
+       android:orientation="vertical" >
+       
+		<LinearLayout
+		    android:id="@+id/MyWayMapMenu"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/b_mws"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="출발" />
+
+        <Button
+            android:id="@+id/b_mwe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="도착" />
+        <Button
+	         android:id="@+id/b_mwSendMessageButton"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="구조신고!" />  
+        
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/MyWayMapMenu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+	        <Button
+	            android:id="@+id/b_mwchange"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="나만의 코스 초기화" />
+	
+	        <Button
+	            android:id="@+id/b_mwrecodingend"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="기록저장" />
+	    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

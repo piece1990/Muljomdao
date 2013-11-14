@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/theMap"
+        android:layout_width="fill_parent"
+        android:layout_height="363dp"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <TextView  
+        android:id="@+id/myTextView"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+    />
+    
+     <LinearLayout
+         android:id="@+id/theMapMenu"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical" >
+
+	   <LinearLayout
+	       android:id="@+id/thMapMenu1"
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:orientation="horizontal" >
+	
+	        <Button
+	            android:id="@+id/b_tresurehunt"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="보물찾기시작!" />
+	            
+	        <Button
+	            android:id="@+id/b_tresurehuntend"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="보물찾기종료!" />
+	
+		</LinearLayout>
+		
+	    <LinearLayout
+	        android:id="@+id/thMapMenu2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        
+	        <Button
+		         android:id="@+id/b_thSendMessageButton"
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:text="구조신고!" />  
+		</LinearLayout>
+		
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/CommendWayMap"
+        android:layout_width="fill_parent"
+        android:layout_height="363dp"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <TextView  
+        android:id="@+id/myTextView"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+    />
+    
+     <LinearLayout
+         android:id="@+id/recommendMapMenu"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical" >
+
+	   <LinearLayout
+	       android:id="@+id/MyWayMapMenu1"
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:orientation="horizontal" >
+	
+	        <Button
+	            android:id="@+id/b_recommendway1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="추천코스 1" />
+	
+	        <Button
+	            android:id="@+id/b_recommendway2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="추천 코스 2" />
+	
+	        <Button
+	            android:id="@+id/b_recommendway3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="추천 코스 3" />
+		</LinearLayout>
+		
+	    <LinearLayout
+	        android:id="@+id/recommendMapMenu2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        
+			<Button
+	            android:id="@+id/b_mwrecodingstart"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="출발" />
+	
+	        <Button
+	            android:id="@+id/b_mwrecodingend"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="종료" />
+	        <Button
+		         android:id="@+id/b_reSendMessageButton"
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:text="구조신고!" />  
+		</LinearLayout>
+		
+    </LinearLayout>
+
+</LinearLayout>

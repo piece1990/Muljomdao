@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/join_st_id"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:src="@drawable/st_id" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <ImageView
+        android:id="@+id/join_st_password"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:src="@drawable/st_password" />
+
+    <EditText
+        android:id="@+id/Loginid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/join_st_repassword"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:src="@drawable/st_repassword" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <ImageView
+        android:id="@+id/join_st_phonenumber"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:src="@drawable/st_phonenumber" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <ImageView
+        android:id="@+id/join_st_age"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:src="@drawable/st_age" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <ImageView
+        android:id="@+id/b_join"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/stb_join" />
+
+</LinearLayout>
