@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="도움말"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#550000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="추천코스"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000ff" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": 유달산에 알맞는 등산로를 세가지 경로를 보여줍니다. 보여준 경로에 맞게 등산을 할 수 있습니다."
+        android:textColor="#009900" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="나만의 코스"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000ff" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": 나만의 코스를 만들어서 다음 등산시에 이용할 수 있는 기능입니다."
+        android:textColor="#009900" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="도전"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000ff" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": 자신의 등산 속도가 빠르다면 얼마나 빠르게 도착하였는지를 알 수 있는 기능입니다."
+        android:textColor="#009900" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="보물 찾기"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000ff" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": 지정된 경로를 이동시에 임의의 좌표에 도달 시 보물을 획득했다는 메시지가 뜹니다."
+        android:textColor="#009900" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주변 맛집 찾기"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000ff" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": 목포의 특색있는 맛집으로 회, 낙지, 바지락 등을 찾을 수 있으며, 편안한 카페등을 찾아주어 휴식을 취할 수 있습니다."
+        android:textColor="#009900" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제작자 소개"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000ff" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="목포해양대 해양 컴퓨터공학과"
+        android:textColor="#00aa00" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20084055 박성웅 / 20094028 이훈휘 / 20094003 김길호"
+        android:textColor="#009900" />
+
+
+    <TextView
+        android:id="@+id/t_challengecount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제작자 이야기"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000ff" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이 어플은 2013년 9월 목포해양대학교 컴공과 학생들의 과제로 학교에서 매일보는 유달산의 트레킹 어플을 만들고자 제작 하였습니다. 교수님들의 폭풍 레포트속에서 힘들게 만든 어플입니다 부족하지만 잘이용해주세요"
+        android:textColor="#009900" />
+
+</LinearLayout>

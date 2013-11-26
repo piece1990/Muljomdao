@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/CommendWayMap"
+        android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <TextView  
+        android:id="@+id/myTextView"
+        android:textColor="#0000ff"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+    />
+    
+     <LinearLayout
+         android:id="@+id/recommendMapMenu"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical" >
+
+	   <LinearLayout
+	       android:id="@+id/MyWayMapMenu1"
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:orientation="horizontal" >
+			<ImageView
+		        android:id="@+id/b_recommendway1"
+		        android:layout_width="75dp"
+		        android:layout_height="60dp"
+		        android:src="@drawable/co_way1" /> 
+			<ImageView
+		        android:id="@+id/b_recommendway2"
+		        android:layout_width="75dp"
+		        android:layout_height="60dp"
+		        android:src="@drawable/co_way2" /> 
+			<ImageView
+		        android:id="@+id/b_recommendway3"
+		        android:layout_width="75dp"
+		        android:layout_height="60dp"
+		        android:src="@drawable/co_way3" /> 
+
+		</LinearLayout>
+		
+	    <LinearLayout
+	        android:id="@+id/recommendMapMenu2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        <ImageView
+		        android:id="@+id/b_mwrecodingstart"
+		        android:layout_width="75dp"
+		        android:layout_height="60dp"
+		        android:src="@drawable/co_go" /> 
+			<ImageView
+		        android:id="@+id/b_mwrecodingend"
+		        android:layout_width="75dp"
+		        android:layout_height="60dp"
+		        android:src="@drawable/co_finish" />
+
+			<ImageView
+			    android:id="@+id/b_recommendway4"
+			    android:layout_width="75dp"
+			    android:layout_height="60dp"
+			    android:src="@drawable/co_way4" />
+	          
+		</LinearLayout>
+		
+    </LinearLayout>
+
+</LinearLayout>

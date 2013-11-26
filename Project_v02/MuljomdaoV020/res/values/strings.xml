@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Muljomdao!</string>
+    <string name="app_name">Muljomdao</string>
+    <string name="str_done">Complete</string>
+	<string name="action_settings">Action Settingd</string>
+	<string name="longTouchPlease">long Touch Please</string>
+	<string name="map_not_ready">Map is not ready yet</string>
+	<string name="searchName">searchName</string>
+</resources>

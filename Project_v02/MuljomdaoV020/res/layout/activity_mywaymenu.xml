@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/CommendWayMap"
+        android:layout_width="fill_parent"
+        android:layout_height="380dp"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:textColor="#0000ff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+   <LinearLayout
+       android:id="@+id/MyWayMapMenu"
+       android:layout_width="fill_parent"
+       android:layout_height="62dp"
+       android:orientation="vertical" >
+       
+		<LinearLayout
+		    android:id="@+id/MyWayMapMenu"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+
+		<ImageView
+	        android:id="@+id/b_mws"
+	        android:layout_width="75dp"
+	        android:layout_height="60dp"
+	        android:src="@drawable/co_go" />
+
+        <ImageView
+	        android:id="@+id/b_mwe"
+	        android:layout_width="75dp"
+	        android:layout_height="60dp"
+	        android:src="@drawable/co_finish" />
+
+        <ImageView
+            android:id="@+id/b_mwchange"
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:src="@drawable/mw_reset" />
+
+        <ImageView
+            android:id="@+id/b_mwrecodingend"
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:src="@drawable/mw_recording" />
+        
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

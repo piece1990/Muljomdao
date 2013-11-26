@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background" >
+
+    
+
+    <TextView
+        android:id="@+id/t_challengecount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비상연락망"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="구조요청시 아래 전화번호로 문자 메시지가 발송되므로 꼭 입력 해주시길 바랍니다." />
+
+    <EditText
+        android:id="@+id/sosnumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/sosnumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+</LinearLayout>

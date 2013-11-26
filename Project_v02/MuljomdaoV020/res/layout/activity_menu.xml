@@ -1,0 +1,127 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/b_name"
+        android:layout_width="224dp"
+        android:layout_height="84dp"
+        android:layout_x="12dp"
+        android:layout_y="8dp"
+        android:src="@drawable/in_name" />
+
+    <ImageView
+        android:id="@+id/b_mbchallenge"
+        android:layout_width="224dp"
+        android:layout_height="84dp"
+        android:layout_x="126dp"
+        android:layout_y="167dp"
+        android:src="@drawable/in_challenge" />
+
+    <ImageView
+        android:id="@+id/b_blocks"
+        android:layout_width="115dp"
+        android:layout_height="84dp"
+        android:layout_x="238dp"
+        android:layout_y="327dp"
+        android:src="@drawable/in_blockb" />
+
+    <ImageView
+        android:id="@+id/b_mbmyway"
+        android:layout_width="224dp"
+        android:layout_height="84dp"
+        android:layout_x="12dp"
+        android:layout_y="87dp"
+        android:src="@drawable/in_myway" />
+
+    <ImageView
+        android:id="@+id/b_mbtresurehunt"
+        android:layout_width="115dp"
+        android:layout_height="84dp"
+        android:layout_x="12dp"
+        android:layout_y="247dp"
+        android:src="@drawable/in_treasurehunt3" />
+
+    <ImageView
+        android:id="@+id/b_mbrecomway"
+        android:layout_width="115dp"
+        android:layout_height="84dp"
+        android:layout_x="238dp"
+        android:layout_y="247dp"
+        android:src="@drawable/in_recomway3" />
+
+    <ImageView
+        android:id="@+id/b_blockaa"
+        android:layout_width="115dp"
+        android:layout_height="84dp"
+        android:layout_x="12dp"
+        android:layout_y="327dp"
+        android:src="@drawable/in_blockb" />
+
+    <ImageView
+        android:id="@+id/b_mbhelp"
+        android:layout_width="115dp"
+        android:layout_height="84dp"
+        android:layout_x="238dp"
+        android:layout_y="407dp"
+        android:src="@drawable/in_help3" />
+
+    <ImageView
+        android:id="@+id/b_blockg"
+        android:layout_width="115dp"
+        android:layout_height="84dp"
+        android:layout_x="126dp"
+        android:layout_y="247dp"
+        android:src="@drawable/in_blockb" />
+
+    <ImageView
+        android:id="@+id/b_mbsos"
+        android:layout_width="115dp"
+        android:layout_height="84dp"
+        android:layout_x="126dp"
+        android:layout_y="407dp"
+        android:src="@drawable/in_safenumber" />
+
+    <ImageView
+        android:id="@+id/b_blockr"
+        android:layout_width="115dp"
+        android:layout_height="84dp"
+        android:layout_x="12dp"
+        android:layout_y="167dp"
+        android:src="@drawable/in_blockb" />
+
+    <ImageView
+        android:id="@+id/b_blockbl"
+        android:layout_width="115dp"
+        android:layout_height="84dp"
+        android:layout_x="238dp"
+        android:layout_y="8dp"
+        android:src="@drawable/in_blockb" />
+
+    <ImageView
+        android:id="@+id/b_mbsetting"
+        android:layout_width="115dp"
+        android:layout_height="84dp"
+        android:layout_x="126dp"
+        android:layout_y="325dp"
+        android:src="@drawable/in_setting2" />
+
+    <ImageView
+        android:id="@+id/b_restrant"
+        android:layout_width="115dp"
+        android:layout_height="84dp"
+        android:layout_x="12dp"
+        android:layout_y="407dp"
+        android:src="@drawable/in_restrant" />
+
+    <ImageView
+        android:id="@+id/b_blockkg"
+        android:layout_width="115dp"
+        android:layout_height="84dp"
+        android:layout_x="238dp"
+        android:layout_y="87dp"
+        android:src="@drawable/in_blockb" />
+
+</AbsoluteLayout>
